@@ -42,7 +42,7 @@ make flash
 sudo service klipper start
 ```
 
-If `make flash` fails run `make clean` before.
+If `make flash` fails run `make clean` before. 
 
 If klippy.log reports a "Permission denied" error when attempting to connect
 to `/tmp/klipper_host_mcu` then you need to add your user to the tty group.
